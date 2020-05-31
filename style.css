@@ -1,0 +1,107 @@
+header {
+    background-color: #e4572e;
+    text-align: center;
+    font-family: 'Gamja Flower', cursive; 
+}
+header h1{
+    font-family: 'Chelsea Market', cursive;
+    text-shadow: 2px 2px #fff;
+    font-size: 40px;
+    padding-top: 12px;
+}
+header h2{
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 7px;
+}
+body{
+    font-family: 'Gamja Flower', cursive; 
+}
+main {
+    background-color: #fffff2;
+}
+
+/* styling for the two notes currently in the journal */
+.note1, .note2{
+    border: 4px solid #050401;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 20px;
+    padding-bottom: 35px;
+    padding-right: 10px;
+    padding-left: 5px;
+    font-weight: 500;
+    box-shadow: 3px 3px 0 0 #e4572e;
+}
+.note1 img, .note2 img{
+    float: right;
+    width: 13%;
+}
+.note1 h2, .note2 h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.note2{
+    margin-top: 10px;
+    padding-bottom: 1px;
+    margin-bottom: 25px;
+}
+.note2 img{
+    width: 27%;
+}
+/* end of styling for the notes */
+
+hr{
+    opacity: 40%;
+}
+footer{
+    text-align: center;
+}
+/* styling for the paragragh element in the footer */
+footer form p{
+    display: inline;
+}
+
+/* styling for the footer elements input fields */
+.firstName input, .email input{
+    width: 10%;
+    box-shadow: 3px 3px 0 0 #e4572e;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    opacity: 92%;
+}
+
+/* styling for the footer elements submit button */
+.submit{
+    box-shadow: 3px 3px 0 0 #e4572e;
+    width: 6%;
+    opacity: 92%;
+}
+footer h2{
+    font-size: 25px;
+}
+footer p{
+    font-size: 19px;
+    font-weight: bold;
+    opacity: 92%;
+    margin-top: -10px;
+}
+
+/* this span targets and styles the &copy word in the html */
+span{
+    font-size: 20px;
+    font-weight: 100;
+}
+.notes{
+    text-align: center;
+    margin-bottom: 1px;
+    font-size: 25px;
+}
+.button{
+    width: 40%;
+    color: #fff;
+    background-color: rgb(14, 13, 13);
+    box-shadow: 3px 3px 0 0 #e4572e;
+    opacity: 92%;
+    margin-bottom: 1px;
+}
